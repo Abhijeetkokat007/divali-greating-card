@@ -1,0 +1,14 @@
+.greeting-card{
+    margin: 30px;
+    padding: 20px ;
+    box-shadow: 0 2px 20px 0 rgb(180, 180, 180);
+    background-color: rgb(252, 252, 217);
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.from-name{
+    position: absolute;
+right: 20px; 
+bottom: 10px;   
+}
