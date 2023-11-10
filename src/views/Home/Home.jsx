@@ -18,8 +18,11 @@ function Home() {
     const to = searchParams.get("to");
     const from = searchParams.get("from");
     const greetingNumber = searchParams.get("g") >= GREATINGS.length ? 0 : searchParams.get("g") || 0 ;
+    const themeNumber = searchParams.get("g");
+
+
   return (
-    <div className='greeting-card'>
+    <div className={`greeting-card ${`theme-${themeNumber}`}`}>
       <h1>Dipavali 🤪Greading Card</h1>
 <h3>  dear {to} </h3>
 <p> {GREATINGS[greetingNumber]} </p>
