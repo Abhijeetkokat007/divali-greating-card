@@ -106,11 +106,11 @@ function Home() {
           }}
         >
           <option value="0">None</option>
-          <option value="1">Greeting 1 </option>
-          <option value="2">Greeting 2 </option>
-          <option value="3">Greeting 3 </option>
-          <option value="4">Greeting 4 </option>
-          <option value="5">Greeting 5 </option>
+          <option value="1">Theme 1 </option>
+          <option value="2">Theme 2 </option>
+          <option value="3">Theme 3 </option>
+          <option value="4">Theme 4 </option>
+          <option value="5">Theme 5 </option>
         </select>
       </div>
     </>
